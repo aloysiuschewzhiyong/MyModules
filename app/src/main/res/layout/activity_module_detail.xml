@@ -27,37 +27,37 @@
             android:id="@+id/textViewCode"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20dp"/>
+            android:textSize="17dp"/>
 
         <TextView
             android:id="@+id/textViewName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20dp"/>
+            android:textSize="17dp"/>
 
         <TextView
             android:id="@+id/textViewAY"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20dp"/>
+            android:textSize="17dp"/>
 
         <TextView
             android:id="@+id/textViewSem"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20dp"/>
+            android:textSize="17dp"/>
 
         <TextView
             android:id="@+id/textViewCredit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20dp"/>
+            android:textSize="17dp"/>
 
         <TextView
             android:id="@+id/textViewVenue"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20dp"/>
+            android:textSize="17dp"/>
 
         <Button
             android:id="@+id/buttonBack"

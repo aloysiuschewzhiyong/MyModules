@@ -33,46 +33,51 @@ public class ModuleDetailActivity extends AppCompatActivity {
 
         Intent intentReceived = getIntent();
         String moduleSelected = intentReceived.getStringExtra("Module");
+        String moduleSelectedName = intentReceived.getStringExtra("Name");
+        int moduleSelectedAY = intentReceived.getIntExtra("AY" , 0);
+        int moduleSelectedSem = intentReceived.getIntExtra("Semester" , 0);
+        int moduleSelectedCredit = intentReceived.getIntExtra("Credit" , 0);
+        String moduleSelectedVenue = intentReceived.getStringExtra("Venue");
 
         if (moduleSelected.equals("C235")){
-            tvCode.setText("Module Code:" + moduleSelected );
-            tvName.setText("Module Name: IT Security and Management");
-            tvAY.setText("Academic Year: 2023");
-            tvSem.setText("Semester: 1");
-            tvCredit.setText("Module Credit: 4");
-            tvVenue.setText("Venue: W64P");
+            tvCode.setText("Module Code: " + moduleSelected );
+            tvName.setText("Module Name: " + moduleSelectedName);
+            tvAY.setText("Academic Year: " + moduleSelectedAY);
+            tvSem.setText("Semester: " + moduleSelectedSem);
+            tvCredit.setText("Module Credit: " + moduleSelectedCredit);
+            tvVenue.setText("Venue: " + moduleSelectedVenue);
         }
         else if(moduleSelected.equals("C346")){
-            tvCode.setText("Module Code:" + moduleSelected );
-            tvName.setText("Module Name: Mobile App Development");
-            tvAY.setText("Academic Year: 2023");
-            tvSem.setText("Semester: 1");
-            tvCredit.setText("Module Credit: 4");
-            tvVenue.setText("Venue: E63A");
+            tvCode.setText("Module Code: " + moduleSelected );
+            tvName.setText("Module Name: " + moduleSelectedName);
+            tvAY.setText("Academic Year: " + moduleSelectedAY);
+            tvSem.setText("Semester: " + moduleSelectedSem);
+            tvCredit.setText("Module Credit: " + moduleSelectedCredit);
+            tvVenue.setText("Venue: " + moduleSelectedVenue);
         }
         else if (moduleSelected.equals("C206")){
-            tvCode.setText("Module Code:" + moduleSelected );
-            tvName.setText("Module Name: Software Development Process");
-            tvAY.setText("Academic Year: 2023");
-            tvSem.setText("Semester: 1");
-            tvCredit.setText("Module Credit: 4");
-            tvVenue.setText("Venue: W64P");
+            tvCode.setText("Module Code: " + moduleSelected );
+            tvName.setText("Module Name: " + moduleSelectedName);
+            tvAY.setText("Academic Year: " + moduleSelectedAY);
+            tvSem.setText("Semester: " + moduleSelectedSem);
+            tvCredit.setText("Module Credit: " + moduleSelectedCredit);
+            tvVenue.setText("Venue: " + moduleSelectedVenue);
         }
         else if (moduleSelected.equals("C203")){
-            tvCode.setText("Module Code:" + moduleSelected );
-            tvName.setText("Module Name: Web Appln Development in php");
-            tvAY.setText("Academic Year: 2023");
-            tvSem.setText("Semester: 1");
-            tvCredit.setText("Module Credit: 4");
-            tvVenue.setText("Venue: W64P");
+            tvCode.setText("Module Code: " + moduleSelected );
+            tvName.setText("Module Name: " + moduleSelectedName);
+            tvAY.setText("Academic Year: " + moduleSelectedAY);
+            tvSem.setText("Semester: " + moduleSelectedSem);
+            tvCredit.setText("Module Credit: " + moduleSelectedCredit);
+            tvVenue.setText("Venue: " + moduleSelectedVenue);
         }
         else if (moduleSelected.equals("C218")){
-            tvCode.setText("Module Code:" + moduleSelected );
-            tvName.setText("Module Name: UI/UX Design for Apps");
-            tvAY.setText("Academic Year: 2023");
-            tvSem.setText("Semester: 1");
-            tvCredit.setText("Module Credit: 4");
-            tvVenue.setText("Venue: W64P");
+            tvCode.setText("Module Code: " + moduleSelected );
+            tvName.setText("Module Name: " + moduleSelectedName);
+            tvAY.setText("Academic Year: " + moduleSelectedAY);
+            tvSem.setText("Semester: " + moduleSelectedSem);
+            tvCredit.setText("Module Credit: " + moduleSelectedCredit);
+            tvVenue.setText("Venue: " + moduleSelectedVenue);
         }
 
         btnBack.setOnClickListener(new View.OnClickListener() {
